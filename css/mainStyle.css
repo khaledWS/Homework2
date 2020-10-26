@@ -1,19 +1,40 @@
 html{
     background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(99,180,254,1) 0%, rgba(4,162,193,1) 40%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(1,22,41,1) 0%, rgba(15,63,73,1) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
     font-family: 'Grandstander', cursive;
 }
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.main-flex{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.red-border{
+    background-color: red;
+
+}
+.black-border{
+    background-color: black;
+}
+
+.yellow-border{
+    border: 4px yellow solid;
+}
+
 .flex-container{
-    position: relative;
     display: flex;
     flex-direction: column;
-    align-items:  center;
     justify-content: center;
-    border: 1px red solid; 
-    height: fit-content;
+    align-items: center;
+    
 
 }
 
@@ -25,17 +46,82 @@ html{
 }
 
 .title{
-    position: relative;
-    text-align: center;
-    border: 1px black solid; 
-    top: 50px;
-
-}
-
-
-.searchbar{
-    font-size: 30px;
-    width: auto;
-    border: 1px black solid;
     
+    text-align: center;
+    margin-bottom: 130px;
 }
+
+
+.searchbox{
+    
+    max-width: 100%;
+    margin-bottom: 150px;
+    margin-top: -30px;
+}
+.search-text{
+    font-size: 25px;
+}
+
+  .search-box-border{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    width: auto;
+  }
+  .search-box-border-area{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+
+  }
+
+  .cas-3{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+
+  }
+  
+  .search-bar{
+    position: relative;
+    top: 37px;
+   background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+  }
+  .search-bar-2{
+      position: relative;
+      top: 30px;
+    font: 16px arial,sans-serif;
+    color: rgba(0,0,0,.87);
+    line-height: 34px;
+    height: 34px !important;
+  }
+
+  .btn{
+      position: relative;
+      width: 120px;
+      height: 40px;
+      border: black 1px solid;
+      float: right;
+      right: 13px;
+      margin-top: 5px;
+      background-color: 	#228EA4;
+  }
