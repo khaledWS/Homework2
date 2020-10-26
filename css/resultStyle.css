@@ -1,0 +1,40 @@
+html{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(1,22,41,1) 0%, rgba(15,63,73,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Grandstander', cursive;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.Flex-Container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+.result{
+    width: 1100px;
+    border: 1px lightblue solid;
+}
+
+.r1t{
+    position: relative;
+    right: 20px;
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    position: relative;
+    left: 190px;
+}
