@@ -1,10 +1,28 @@
+html{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(1,22,41,1) 0%, rgba(15,63,73,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Grandstander', cursive;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
 .flex-container{
     display: flex;
     flex-direction: column;
-    background-color: black;
-    color: white;
-    line-height: 40px;
+    line-height: 30px;
+    align-items: center;
+}
+.albumtit{
+    text-align: center;
 }
 .t1{
-    border: 1px solid white;
+    width: 1100px;
+    border: 1px lightblue solid;
+    letter-spacing: 3px;
 }
