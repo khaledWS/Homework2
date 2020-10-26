@@ -1,0 +1,16 @@
+.Flex-Container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+div{
+    border: 1px solid black;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    float: left; 
+}
